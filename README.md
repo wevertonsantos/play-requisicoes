@@ -1,4 +1,4 @@
-## Página inicial e formulário de cadastro de vídeos, uma plataforma de compartilhamento de vídeos.
+<p>Página inicial e formulário de cadastro de vídeos, uma plataforma de compartilhamento de vídeos.</p>
 
 ## Tecnologias utilizadas durante o curso
 * Javascript
