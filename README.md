@@ -1,6 +1,6 @@
-<p>Página inicial e formulário de cadastro de vídeos da AluraPlay, uma plataforma de compartilhamento de vídeos.</p>
+<p>Página inicial e formulário de cadastro de vídeos, uma plataforma de compartilhamento de vídeos.</p>
 
-## Tecnologias utilizadas durante o curso
+## Tecnologias utilizadas durante o projeto
 * Javascript
 * NodeJS
 * Json-server
