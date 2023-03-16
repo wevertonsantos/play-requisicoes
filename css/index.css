@@ -8,6 +8,8 @@
 	align-items: center;
 	height: 10vh;
 
+	padding: 0 1em;
+
 	background: #fff;
 }
 
@@ -55,4 +57,11 @@
 .pesquisar__botao-img{
 	height: 20px;
 	width: 30px;
+}
+
+/* Main */
+
+.principal{
+	padding: 1em;
+	height: 90vh;
 }
