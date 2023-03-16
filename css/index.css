@@ -1,3 +1,4 @@
+@import url('./style.css');
 
 /* Cabeçalho */
 
@@ -5,16 +6,53 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height: 10vh;
 
-	padding: 0 1em;
-	height: 30%;
-
-	background: #ffffff;
-	border-bottom: 1px solid #000;
-
+	background: #fff;
 }
 
-.img-play, .img-envio{
+.img-play{
+	height: 30px;
+	width: 60px;
+}
+
+.img-envio{
 	height: 40px;
 	width: 40px;
+	padding-right: 10px;
+}
+
+.pesquisar__input{
+	border: .5px solid #fff;
+	padding-left: 5px;
+	border-radius: 20px 0 0 20px;
+	height: 30px;
+	width: 150px;
+	background: var(--cor-azul);
+	color: #fff;
+}
+
+::placeholder{
+	font-family: 'Quicksand';
+	color: #fff;
+}
+
+.pesquisar__botao{
+	position: absolute;
+
+
+	border: .5px solid #fff;
+	border-radius: 0 20px 20px 0;
+	background: var(--cor-azul);
+
+	cursor: pointer;
+
+	padding: 1px 5px 0 3px;
+	height: 30px;
+	width: 40px;
+}
+
+.pesquisar__botao-img{
+	height: 20px;
+	width: 30px;
 }
