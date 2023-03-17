@@ -1,5 +1,5 @@
 {
-  "name": "play-requisicoes",
+  "name": "c",
   "version": "1.0.0",
   "description": "<p>Página inicial e formulário de cadastro de vídeos, uma plataforma de compartilhamento de vídeos.</p>",
   "main": "index.js",
@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.2"
-  }
+  },
+  "devDependencies": {}
 }

@@ -61,7 +61,17 @@
 
 /* Main */
 
-.principal{
+.videos__container{
+	display: flex;
+
 	padding: 1em;
 	height: 90vh;
+}
+
+.videos__item{
+	margin: 0 .6em;
+
+	height: 30vh;
+	width: 25%;
+	background: blue;
 }
