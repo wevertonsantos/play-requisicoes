@@ -71,7 +71,24 @@
 .videos__item{
 	margin: 0 .6em;
 
-	height: 30vh;
+	height: 40vh;
 	width: 25%;
-	background: blue;
+	background: transparent;
+}
+
+/* Descrição */
+
+.descricao-video{
+	text-align: center;
+	color: #fff;
+	font-weight: normal;
+}
+
+.descricao-video h3{
+	font-size: 1em;
+}
+
+.descricao-video p{
+	margin-top: 6px;
+	font-size: .6em;
 }
