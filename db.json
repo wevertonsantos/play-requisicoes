@@ -2,15 +2,21 @@
   "videos": [
     {
       "id": 1,
-      "url": "https://www.youtube.com/embed/WDjibPtiqcc"
+      "url": "https://www.youtube.com/embed/WDjibPtiqcc",
+      "titulo": "Deep Field: The Impossible Magnitude of our Universe",
+      "descricao": "4.640.200 visualizações"
     },
     {
       "id": 2,
-      "url": "https://www.youtube.com/embed/yDiD8F9ItX0"
+      "url": "https://www.youtube.com/embed/1C_zuHf6lP4",
+      "titulo": "Highlights: First Images from the James Webb Space Telescope (Official NASA Video)",
+      "descricao": "1.317.826 visualizações"
     },
     {
+      "url": "https://www.youtube.com/embed/DHjqpvDnNGE",
+      "titulo": "JavaScript in 100 Seconds",
+      "descricao": "557.708 visualizações",
       "id": 3,
-      "url": "https://www.youtube.com/embed/_XG3h6LywNQ"
     }
   ]
 }
