@@ -1,10 +1,10 @@
 async function listaVideos(){
-	const conectaApi = await fetch('http://localhost:3000/videos')
-	.then(res => res.json())
+	const url = "http://localhost:3000/videos"
+	const apiConvertida = await fetch(url).then(res => res.json())
 
-	return conectaApi
+	return apiConvertida
 }
 
-export const conectaApi {
+export const conectaApi = {
 	listaVideos
 }
