@@ -79,9 +79,11 @@
 /* Descrição */
 
 .descricao-video{
-	text-align: center;
+	display: grid;
+	grid-template-rows: 50px 20px;
+
+
 	color: #fff;
-	font-weight: normal;
 }
 
 .descricao-video h3{
@@ -90,5 +92,17 @@
 
 .descricao-video p{
 	margin-top: 6px;
-	font-size: .6em;
+	font-size: .8em;
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 960px){
+	.videos__container{
+		flex-wrap: wrap;
+	}
+	.videos__item{
+		width: 100%;
+		margin-bottom: 1em;
+	}
 }
