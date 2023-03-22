@@ -26,10 +26,10 @@
 
 .pesquisar__input{
 	border: .5px solid #fff;
-	padding-left: 5px;
+	padding-left: 15px;
 	border-radius: 20px 0 0 20px;
 	height: 30px;
-	width: 150px;
+	width: 100%;
 	background: var(--cor-azul);
 	color: #fff;
 }
