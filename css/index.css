@@ -62,17 +62,19 @@
 /* Main */
 
 .videos__container{
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
 
 	padding: 1em;
 	height: 90vh;
 }
 
 .videos__item{
-	margin: 0 .6em;
+	margin: .6em .6em;
 
 	height: 40vh;
-	width: 25%;
+	width: 85%;
 	background: transparent;
 }
 
@@ -81,7 +83,6 @@
 .descricao-video{
 	display: grid;
 	grid-template-rows: 50px 20px;
-
 
 	color: #fff;
 }
@@ -97,12 +98,19 @@
 
 /* Responsivo */
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1200px){
 	.videos__container{
-		flex-wrap: wrap;
+		grid-template-columns: 1fr 1fr;
 	}
 	.videos__item{
-		width: 100%;
+		width: 80%;
 		margin-bottom: 1em;
 	}
+}
+
+@media screen and (max-width: 720px){
+		.videos__container{
+		grid-template-columns: 1fr;
+	}
+
 }
