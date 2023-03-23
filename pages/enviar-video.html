@@ -22,23 +22,23 @@
 
 	<main class="container">
 
-		<form class="container__formulario">
+		<form class="container__formulario" data-formulario>
 			<h2 class="formulario__titulo">Envie um vídeo!</h2>
-			
+
 			<div class="formulario__campo">
 				<label class="campo__etiqueta" for="url">Link embed</label>
-				<input class="campo__escrita" type="text" name="url" placeholder="Por exemplo: https://www.youtube.com/embed/WDjibPtiqcc">
+				<input class="campo__escrita" type="text" name="url" placeholder="Por exemplo: https://www.youtube.com/embed/WDjibPtiqcc" data-url>
 			</div>
 
 			<div class="formulario__campo">
 				<label class="campo__etiqueta" for="titulo">Título do vídeo</label>
-				<input class="campo__escrita" type="text" name="titulo" placeholder="Neste campo, dê o nome do vídeo">
+				<input class="campo__escrita" type="text" name="titulo" placeholder="Neste campo, dê o nome do vídeo" data-titulo>
 			</div>
 
-			<button class="formulario__botao">Enviar</button>
+			<input class="formulario__botao" type="submit">
 		</form>
 
 	</main>
-
+<script src="../js/criarVideos.js" type="module"></script>
 </body>
 </html>
