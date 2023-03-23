@@ -3,20 +3,22 @@
     {
       "id": 1,
       "url": "https://www.youtube.com/embed/WDjibPtiqcc",
-      "titulo": "Amazing Views of the Moon in 4K HDR OLED Perfect Black Test in HDR",
-      "descricao": "719.849 visualizações "
+      "titulo": "Amazing Views of the Moon in 4K HDR OLED Perfect Black Test in HDR"
     },
     {
       "id": 2,
       "url": "https://www.youtube.com/embed/1C_zuHf6lP4",
-      "titulo": "Highlights: First Images from the James Webb Space Telescope (Official NASA Video)",
-      "descricao": "1.317.826 visualizações"
+      "titulo": "Highlights: First Images from the James Webb Space Telescope (Official NASA Video)"
     },
     {
       "id": 3,
       "url": "https://www.youtube.com/embed/DHjqpvDnNGE",
-      "titulo": "JavaScript in 100 Seconds",
-      "descricao": "557.708 visualizações"
+      "titulo": "JavaScript in 100 Seconds"
+    },
+    {
+      "url": "https://www.youtube.com/embed/4lm8mBVvtjA",
+      "titulo": "Chopin: Nocturne Op. 27 No. 2",
+      "id": 4
     }
   ]
 }
