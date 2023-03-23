@@ -5,16 +5,15 @@ async function listaVideos(){
 	return apiConvertida
 }
 
-async function criaVideos(url,titulo,descricao){
+async function criaVideos(url,titulo){
 	const conexao = await fetch("http://localhost:3000/videos", {
 		method: "POST",
-		header: {
+		headers: {
 			"Content-type": "application/json"
 		},
 		body: JSON.stringify({
 			url: url,
-			titulo: titulo,
-			descricao: `${descricao} visualizações`
+			titulo: titulo
 		})
 	});
 
