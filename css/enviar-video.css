@@ -57,3 +57,8 @@
 
 	cursor: pointer;
 }
+
+.envio-concluido{
+	font-size: 4em;
+	color: #fff;
+}
