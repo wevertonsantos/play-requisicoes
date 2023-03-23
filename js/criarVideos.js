@@ -2,7 +2,7 @@ import { conectaApi } from "./conectaApi.js";
 
 const formulario = document.querySelector('[data-formulario]');
 
-async function criarVideo(evento){
+const criarVideo = async (evento) => {
 	evento.preventDefault();
 
 	const url = document.querySelector('[data-url]').value;

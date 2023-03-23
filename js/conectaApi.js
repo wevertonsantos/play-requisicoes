@@ -1,11 +1,11 @@
-async function listaVideos(){
+const listaVideos = async () => {
 	const url = "http://localhost:3000/videos"
 	const apiConvertida = await fetch(url).then(res => res.json())
 
 	return apiConvertida
 }
 
-async function criaVideos(url,titulo){
+const criaVideos = async (url,titulo) => {
 	const conexao = await fetch("http://localhost:3000/videos", {
 		method: "POST",
 		headers: {

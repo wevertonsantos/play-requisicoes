@@ -2,7 +2,7 @@ import { conectaApi } from "./conectaApi.js";
 
 const lista = document.querySelector("[data-lista]");
 
-function constroiCard(url,titulo){
+const constroiCard = (url,titulo) => {
 	const video = document.createElement("li");
 	video.className = "videos__item";
 
@@ -21,13 +21,12 @@ function constroiCard(url,titulo){
 		return video
 }
 
-async function listaVideos(){
+const listaVideos = async () => {
 	const listaApi = await conectaApi.listaVideos()
 
 	listaApi.forEach(e => 
 		lista.appendChild(constroiCard(e.url, e.titulo))
 	)
-
 }
 
 listaVideos();
