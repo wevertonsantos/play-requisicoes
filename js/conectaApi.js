@@ -1,6 +1,6 @@
 // URL do servidor local
 
-const url = "https://wevertonsantos.github.io/play-requisicoes/db.json"
+const url = ""
 
 // Conexão para criar pegar a lista de vídeos
 
