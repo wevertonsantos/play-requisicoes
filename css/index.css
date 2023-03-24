@@ -70,6 +70,18 @@
 	height: 90vh;
 }
 
+.mensagem__titulo{
+	left: 100%;
+	position: relative;
+	justify-self: center;
+	align-self: center;
+	text-align: center;
+	font-size: 3em;
+	color: #fff;
+
+	width: 100%;
+}
+
 .videos__item{
 	margin: .6em .6em;
 
