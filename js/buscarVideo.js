@@ -20,6 +20,10 @@ const buscarVideo = async (evento) => {
 	busca.forEach(elemento => lista.appendChild(constroiCard(
 		elemento.url, elemento.titulo
 		)));
+
+	if(busca.length == 0){
+		lista.innerHTML = `<h2 class="mensagem__titulo">Não foi possível realizar essa busca. Tente novamente!</h2>`
+	}
 }
 
 const botaoPesquisa = document.querySelector('[data-botao-pesquisa]');
