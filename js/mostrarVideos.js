@@ -22,11 +22,14 @@ const constroiCard = (url,titulo) => {
 }
 
 const listaVideos = async () => {
-	const listaApi = await conectaApi.listaVideos()
+	try{
+		const listaApi = await conectaApi.listaVideos()
 
-	listaApi.forEach(e => 
-		lista.appendChild(constroiCard(e.url, e.titulo))
-	)
+		listaApi.forEach(e => 
+			lista.appendChild(constroiCard(e.url, e.titulo)))
+	}catch{
+		lista.innerHTML = `<h2 class="mensagem__titulo">Não foi possível carregar a lista de vídeos</h2>`
+	}
 }
 
 listaVideos();
