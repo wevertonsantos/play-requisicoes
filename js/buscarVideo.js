@@ -28,4 +28,4 @@ const buscarVideo = async (evento) => {
 
 const botaoPesquisa = document.querySelector('[data-botao-pesquisa]');
 
-botaoPesquisa.addEventListener('click', evento => buscarVideo(evento))
+botaoPesquisa.addEventListener('click', evento => buscarVideo(evento));
