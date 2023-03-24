@@ -30,3 +30,5 @@ const listaVideos = async () => {
 }
 
 listaVideos();
+
+export default constroiCard;
