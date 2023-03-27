@@ -1,6 +1,6 @@
 // URL do servidor local
 
-const url = ""
+const url = "http://localhost:3000/videos"
 
 // Conexão para criar pegar a lista de vídeos
 
