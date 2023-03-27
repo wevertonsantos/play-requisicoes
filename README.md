@@ -9,7 +9,7 @@
 * HTML
 * CSS
 
-## Para visualizar o projeto
+## Para visualizar o projeto:
 
 ### Clonar o repositório
 git clone https://github.com/wevertonsantos/play-requisicoes.git
