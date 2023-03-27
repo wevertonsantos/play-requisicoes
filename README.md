@@ -4,8 +4,6 @@
 * Javascript
 * NodeJS
 * Json-server
-
-## Tecnologias utilizadas no projeto
 * HTML
 * CSS
 
